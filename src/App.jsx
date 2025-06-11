@@ -1,3 +1,9 @@
+import { DosComponentes } from "./components/DosComponentes"
+import Ejercicio002 from "./components/Ejercicio002"
+import Ejercicio01 from "./components/Ejercicio01"
+import { BotonGeneral } from "./components/utils/buttonGeneral"
+import ContenedorBotones from "./components/utils/ContenedorBotones"
+
 function App() {
   return (
     <>
@@ -9,7 +15,21 @@ function App() {
             </h1>
           </div>
         </div>
+
+      {/** Mando llamar componente externo */}
+      <Ejercicio01/>
+      <hr/>
+      <BotonGeneral/>
+      <hr/>
+      <ContenedorBotones/>
+
+      <Ejercicio002/>
+
+
+
       </div>
+
+      
     </>
   )
 }
