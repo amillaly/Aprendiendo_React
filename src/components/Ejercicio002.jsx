@@ -27,7 +27,6 @@ export const Ejercicio002 = () => {
         <span className="ms-2">Agregar articulo</span>
         </button>
         
-
         <button className="w-25 btn btn-danger ms-4" onClick={eliminarProducto}><i class="bi bi-plus-circle-fill"></i>
         <span className="ms-2">Eliminar</span>
         </button>

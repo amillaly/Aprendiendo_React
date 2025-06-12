@@ -1,5 +1,7 @@
 import { DosComponentes } from "./components/DosComponentes"
 import Ejercicio002 from "./components/Ejercicio002"
+import { Ejercicio003 } from "./components/Ejercicio003"
+import { Ejercicio004 } from "./components/Ejercicio004"
 import Ejercicio01 from "./components/Ejercicio01"
 import { BotonGeneral } from "./components/utils/buttonGeneral"
 import ContenedorBotones from "./components/utils/ContenedorBotones"
@@ -24,6 +26,10 @@ function App() {
       <ContenedorBotones/>
 
       <Ejercicio002/>
+      <hr/>
+      <Ejercicio003/>
+      <hr/>
+      <Ejercicio004/>
 
 
 
